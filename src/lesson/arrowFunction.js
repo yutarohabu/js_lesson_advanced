@@ -13,6 +13,6 @@
 
 // 練習問題
 // 問題 1
-const testFn = function(name) {
-  return `Gizumo ${name}`;
-};
+const testFn = name =>  console.log(`Gizumo ${name}`);
+
+testFn('tarou');
