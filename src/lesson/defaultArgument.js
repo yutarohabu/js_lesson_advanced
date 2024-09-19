@@ -18,4 +18,4 @@ function discountRateCalc(price, rate = 5) {
 }
 
 console.log(discountRateCalc(4500));
-console.log(discountRateCalc(6000));
+console.log(discountRateCalc(6000,20));
