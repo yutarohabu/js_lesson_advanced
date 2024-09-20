@@ -38,8 +38,12 @@ const [jQuery,Vue,arg] = arrayFn(10);
 console.log(arg);
 
 // 問題 2
-function objectFn(name) {
-  const {name: companyName} = argObject;
+// function objectFn(name) {
+//   const {name: companyName} = argObject;
+//   console.log(companyName);
+// }
+
+function objectFn({name: companyName}) {
   console.log(companyName);
 }
 

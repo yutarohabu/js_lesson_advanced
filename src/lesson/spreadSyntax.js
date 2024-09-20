@@ -35,7 +35,7 @@ const packageManager = ['npm', 'yarn', 'pnpm'];
 function arrayFn(array) {
   const framework = ['Vue', 'React', 'Svelte'];
 
-  return [...packageManager, ...framework];
+  return [...array, ...framework];
 }
 
 console.log(arrayFn(packageManager));

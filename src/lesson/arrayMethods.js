@@ -55,6 +55,6 @@ const array = [
   },
 ];
 
-const newArray = array.map(array => { return {...array, className : 'c-' + array.className}});
+const newArray = array.map(array => { return {...array, className : `c-${array.className}`}});
 
 console.log(newArray);
